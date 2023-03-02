@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "_MyLayout";
+}
+<div class="row">
+    <div class="col-3 bg-success">
+        <ul>
+            <li>Menu </li>
+            <li>Menu </li>
+            <li>Menu </li>
+        </ul>
+    </div>
+    <div class="col-9">
+        @RenderBody();
+    </div>
+    
+</div>
+@section Noidungfooter {
+        @await RenderSectionAsync("Noidungfooter", required : false);
+
+}

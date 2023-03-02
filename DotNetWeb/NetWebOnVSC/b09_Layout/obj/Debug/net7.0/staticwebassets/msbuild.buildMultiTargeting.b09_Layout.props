@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\b09_Layout.props" />
+</Project>

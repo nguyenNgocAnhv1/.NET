@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "b09_Layout/1.0.0": {
+        "runtime": {
+          "b09_Layout.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "b09_Layout/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

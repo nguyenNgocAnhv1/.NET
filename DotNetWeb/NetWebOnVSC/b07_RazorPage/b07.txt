@@ -1,0 +1,11 @@
+﻿1. Use c# code in html by cshtml file 
+2. Default folder contains the cshtml file is Pages. The folder Pages can change by using Builder.Service
+3. Rewrite Url, parameters to URL (FirstPage.cshtml)
+4. Taghelper: specify the link to Pages
+5. Areas: another folder contains the cshtml file. The Taghelper can specify the file in Areas by asp-area="Product" (folder Areas)
+6. ViewData[""] = "": exchange the data between the .cshtml and _.cs
+7. Handle (OnGetAbc): the method runs when connect to the page
+7. PageModel: the file .cs had the name like the file .cshtml use for control code (firstpace.cs and firstpace.cshtml)
+8. Layout: the file can be understood as the page, that can contain the code export from .cshtml file (folder share)
+9. ViewStart: code in the folder will add to first  into all .cshtml files in the same folder
+10. ViewImports: use to add like library into all .cshtml files in the same folder (_ViewImports,_ViewStart file in folder DichVu)

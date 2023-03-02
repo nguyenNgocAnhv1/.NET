@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\app.min.js",
+      "PackagePath": "staticwebassets\\app.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\js\\bootstrap.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\js\\jquery.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b03_HtmlRequest_Cookie_UploadFile\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.b03_HtmlRequest_Cookie_UploadFile.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.b03_HtmlRequest_Cookie_UploadFile.props",
+      "PackagePath": "build\\b03_HtmlRequest_Cookie_UploadFile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.b03_HtmlRequest_Cookie_UploadFile.props",
+      "PackagePath": "buildMultiTargeting\\b03_HtmlRequest_Cookie_UploadFile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.b03_HtmlRequest_Cookie_UploadFile.props",
+      "PackagePath": "buildTransitive\\b03_HtmlRequest_Cookie_UploadFile.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

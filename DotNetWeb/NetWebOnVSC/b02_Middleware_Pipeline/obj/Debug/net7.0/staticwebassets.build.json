@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Y8ElrFrqeLw5eA5z1Wq18cdNVTAOyXIJiWdl/ktbZac=",
+  "Source": "Bai2",
+  "BasePath": "_content/Bai2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Bai2\\wwwroot",
+      "Source": "Bai2",
+      "ContentRoot": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b02_Middleware_Pipeline\\wwwroot\\",
+      "BasePath": "_content/Bai2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b02_Middleware_Pipeline\\wwwroot\\new.html",
+      "SourceId": "Bai2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b02_Middleware_Pipeline\\wwwroot\\",
+      "BasePath": "_content/Bai2",
+      "RelativePath": "new.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\new.html"
+    }
+  ]
+}

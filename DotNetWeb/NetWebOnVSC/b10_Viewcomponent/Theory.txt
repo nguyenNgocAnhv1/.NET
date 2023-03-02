@@ -1,0 +1,14 @@
+﻿1. Partial View: file .cshtml don't exist the @page
+                : split the big page to small file
+                - use for reuse and avoid duplication
+<partial name = "_ProductItem"/>
+@await Html.PartialAsync("_ProductItem")
+Three way to use partial
+@* way 1 *@
+<partial name = "_ProductItem"/>
+@* way 2 *@
+@await Html.PartialAsync("_ProductItem")
+@* way 3 *@
+@{
+    await Html.RenderPartialAsync("_ProductItem");
+}

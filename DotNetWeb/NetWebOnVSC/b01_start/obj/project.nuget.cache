@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8u41D7Nzk0vHBs28sNBk3JLZx7oaD3fLSA4EsywU9d63QFHMzps1JtbRvHlYu6yx7VDJIrW6cz7u3HjEQm0e7Q==",
+  "success": true,
+  "projectFilePath": "D:\\CNTT\\Net\\DotNetWeb\\test\\test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ngocanh\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
+  ],
+  "logs": []
+}

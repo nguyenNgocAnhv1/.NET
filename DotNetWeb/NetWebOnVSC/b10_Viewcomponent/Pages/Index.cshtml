@@ -1,0 +1,51 @@
+﻿@page
+@using XTLAB
+@model IndexModel
+@{
+ViewData["Title"] = "Home page";
+ViewData["content"] = "Ban daang xem cac san pham moi";
+
+}
+@{
+var product1 = new Product(){Name = "Iphone",Description = "Apple phone",Price = 1000};
+var product2 = new Product(){Name = "Samsung",Description = "Sam fan",Price = 7000};
+var product3 = new Product(){Name = "Xiaomi",Description = "Mi xao rau rua",Price = 300};
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<partial name="_Message"/>
+
+<div class="row bg-info">
+    <div class="col">
+        @* way 1 *@
+        <partial name="_ProductItem" model="product1" />
+    </div>
+    <div class="col">
+        @* way 2 *@
+        @await Html.PartialAsync("_ProductItem",product2)
+    </div>
+    <div class="col">
+        @* way 3 *@
+        @{
+        await Html.RenderPartialAsync("_ProductItem",product3);
+        }
+
+    </div>
+</div>
+
+<div class="row bg-warning">
+    @{
+        var list = new List<Product>(){
+            new Product(){Name = "Iphone",Description = "Apple phone",Price = 1000},
+            new Product(){Name = "Samsung",Description = "Sam fan",Price = 7000},
+            new Product(){Name = "Xiaomi",Description = "Mi xao rau rua",Price = 300},
+            };
+        foreach(var p in list){
+            <div class = "col">
+                <partial name="_ProductItem" model=p />
+            </div>
+        };
+    }
+</div>

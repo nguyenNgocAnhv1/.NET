@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "ShnmFTrMqU7BvpW9MJ3PUTmmGiqbbGLZqX3Omda//Tc=",
+  "Source": "test",
+  "BasePath": "_content/test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "test\\wwwroot",
+      "Source": "test",
+      "ContentRoot": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\js\\jquery.min.js",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "js/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
+    },
+    {
+      "Identity": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\js\\popper.min.js",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "js/popper.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\popper.min.js"
+    },
+    {
+      "Identity": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\xxx.html",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CNTT\\Net\\DotNetWeb\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "xxx.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\xxx.html"
+    }
+  ]
+}

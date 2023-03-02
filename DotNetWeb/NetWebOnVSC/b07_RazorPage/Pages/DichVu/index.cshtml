@@ -1,0 +1,16 @@
+﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h1 style="color: red;">Day la trang index cua dich vu</h1>
+@{
+    ViewData["data"] = "Du lieu tu view data";
+}
+<h2>@ViewData["data"]</h2>
+<a asp-page="dichvu1">dich vu 1</a>
+<a asp-page="/INdex" asp-area="Product">Trang san pham</a>
+@{
+    @* string name {get;set;} = "Nguyen Ngoc Anh"; *@
+    string print  (string name){
+        return $"Xin chao: {name} ";
+    }
+}
+<p>@print("Ngoc Anh")</p>

@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = b07_RazorPage
+build_property.RootNamespace = b07_RazorPage
+build_property.ProjectDir = d:\CNTT\Net\DotNetWeb\NetWebOnVSC\b07_RazorPage\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = d:\CNTT\Net\DotNetWeb\NetWebOnVSC\b07_RazorPage
+build_property._RazorSourceGeneratorDebug = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Areas/Product/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Areas/Product/Pages/SanPhamMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xTYW5QaGFtTW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Areas/User/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Areas/User/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxQYWdlc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/DichVu/dichvu1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XGRpY2h2dTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/DichVu/dichvu2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XGRpY2h2dTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/DichVu/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/DichVu/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/DichVu/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/FirstPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlyc3RQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/SecondPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vjb25kUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/Shared/_Mylayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NeWxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/CNTT/Net/DotNetWeb/NetWebOnVSC/b07_RazorPage/Pages/ThirdPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhpcmRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
