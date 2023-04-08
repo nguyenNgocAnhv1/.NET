@@ -1,0 +1,26 @@
+﻿[
+    
+  {
+    "outputFileName": "wwwroot/css/bootstrap.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.css"
+    ]
+  },
+    {
+      "outputFileName": "wwwroot/js/jquery.min.js",
+      "inputFiles": [
+        "node_modules/jquery/dist/jquery.min.js"
+      ]
+    },
+    {
+      "outputFileName": "wwwroot/js/popper.min.js",
+      "inputFiles": [
+        "node_modules/popper.js/dist/popper.min.js"
+      ],
+      "minify": {
+        "enabled": false,
+        "renameLocals": true
+      }
+
+    }
+]

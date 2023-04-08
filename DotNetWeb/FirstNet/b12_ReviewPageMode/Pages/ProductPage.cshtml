@@ -1,0 +1,40 @@
+﻿@page "/product/{id:int?}"
+@model b12_ReviewPageMode.Pages.ProductPageModel
+@{
+    var product = Model.product;
+    var products = Model.productService.AllProducts();
+}
+
+@{
+    <h1>@ViewData["Title"]</h1>
+
+}
+@if (product != null)
+{
+    <h2>@product.Name</h2>
+    <p>Mo ta: @product.Description</p>
+    <p>Gia = @product.Price</p>
+  <form method="post" asp-page="ProductPage" asp-page-handler="detele" asp-route-id="@product.Id" >
+    <button type="submit" asp-page-handler="delete" class="btn btn-danger">Xoa</button>
+  </form>
+}
+else 
+{
+    <ul>
+        @foreach (var p in products)
+        {
+            <li>
+                <a asp-page="ProductPage" asp-route-id=" @p.Id">@p.Name</a>
+
+            </li>
+        }
+    </ul>
+    <hr>
+    <p>
+        <a class="btn btn-primary" asp-page="ProductPage" asp-page-handler="lastproduct">San pham cuoi</a>
+        <a class="btn btn-danger" asp-page="ProductPage" asp-page-handler="removeall">Xoa tat cả san pham</a>
+        <a class="btn btn-danger" asp-page="ProductPage" asp-page-handler="load">Nap san pham</a>
+    </p>
+
+
+}

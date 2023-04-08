@@ -1,0 +1,42 @@
+﻿@page
+@model b14_Validation.Pages.ContactModel
+@{
+}
+<h1>Liên hệ</h1>
+<form method="post" asp-page="Contact" class="m-2 p-3 alert-danger" enctype="multipart/form-data">
+    <div class="" asp-validation-summary="All"></div>
+    <div class="form-group pb-3">
+        <label asp-for="customerInfor.Name"></label>
+        <input asp-for="customerInfor.Name" class="form-control">
+        <span asp-validation-for="customerInfor.Name"></span>
+    </div>
+    <div class="form-group pb-3">
+        <label asp-for="customerInfor.Email"></label>
+        <input asp-for="customerInfor.Email" class="form-control">
+        <span asp-validation-for="customerInfor.Email"></span>
+    </div>
+    <div class="form-group pb-3">
+        <label asp-for="customerInfor.Year"></label>
+        <input asp-for="customerInfor.Year" class="form-control">
+        <span asp-validation-for="customerInfor.Year"></span>
+    </div>
+    <div class="form-group pb-3">
+        <label asp-for="FileUpLoader"></label>
+        <input asp-for="FileUpLoader" class="form-control">
+        <span asp-validation-for="FileUpLoader"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Gửi</button>
+    </div>
+</form>
+<p>@Model.ThongBao</p>
+@if (@Model.customerInfor != null)
+{
+    <p>Thông tin nhận được</p>
+    <ul>
+        <li>User Name: @Model.customerInfor.Name</li>
+        <li>User Email: @Model.customerInfor.Email</li>
+        <li>User Year: @Model.customerInfor.Year</li>
+       
+    </ul>
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\b03_HtmlRequest_Cookie_UploadFile.props" />
+</Project>

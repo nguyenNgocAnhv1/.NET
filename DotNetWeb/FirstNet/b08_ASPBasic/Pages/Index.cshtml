@@ -1,0 +1,31 @@
+﻿@page 
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    string hello = "<h1 class='alert alert-danger''> the hello tu bien</h1>";
+    string [] cacSanPham = new string[] { "Iphone", "Xiaomi", "Sam sung"};
+}
+
+<div class="text-center">
+    <h1>Ngoc Anh Hoc .Net</h1>
+    @hello
+    @Html.Raw(@hello)
+</div>  
+@{
+    foreach(var name in cacSanPham){
+        <text> @name </text>
+    };
+        <br>
+
+    foreach(var name in cacSanPham){
+        @: @name
+    };
+    int age = 20;
+}
+@if (age >=18)
+{
+    <p> Ban @age, duoc truy cap</p>
+}else{
+        <p> Ban @age, khong duoc truy cap</p>
+}
+@Model.text

@@ -1,0 +1,5 @@
+﻿1. Taghelper is property in a tag. This use for optimization purposes code
+<!a asp-page="ViewProduct" asp-route-id="3">Trang san pham 3</!a>
+use ! for ignore the Taghelper
+2. HtmlHelper use for generate the html
+@Html.Label("inputcontroller", "ĐÂY LÀ LABEL", new {@class = "text-danger"}) == <label class="text-danger" for="inputcontroller">ĐÂY LÀ LABEL</label>

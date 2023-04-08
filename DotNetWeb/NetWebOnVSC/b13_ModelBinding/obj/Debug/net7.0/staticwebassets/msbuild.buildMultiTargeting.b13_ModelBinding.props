@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\b13_ModelBinding.props" />
+</Project>

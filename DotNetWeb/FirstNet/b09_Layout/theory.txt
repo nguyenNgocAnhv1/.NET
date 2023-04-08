@@ -1,0 +1,6 @@
+﻿1. Su dung layout 
+@{
+    Layout = "_MyLayout";
+}
+2. Layout can be child of another layout. By specify the page to the child layout and the child layout specify to the parent layout
+3. Use section through the child layout to parent (file post 1, child layout)

@@ -1,0 +1,43 @@
+﻿@page "/Trang1/{thamso:int?}"
+@model FirstPageModel
+@{
+    Layout  = "_Mylayout";
+    ViewData["TieuDe"] = "Trang dau tien";
+}
+@* Tao link, b: yeu cau truyen tham so, ?: null or not null? *@
+<h1 style="color: red;">Day la trang razor page dau tien</h1>
+<p>Hoc lap trinh asp net <strong>@System.DateTime.Now</strong></p>
+@{
+    var a = 2;
+    var thamsourl = this.Request.RouteValues["thamso"]?? "0";
+    var b = Int32.Parse(thamsourl.ToString());
+    <p>Tich @a va @b la @Math.Pow(a,b)</p>
+}
+@{
+    <p>Tong cua a va b la @(a+b)</p>
+}
+<ol>
+    <p>So la lap lai la @b</p>
+    @for (int i = 0; i <= b; i++)
+    {
+       <li>So la lap thu @i</li> 
+    }
+</ol>
+@functions{
+    // OnGet, OnGetabc...
+    // OnPost, OnPostabc...
+    // => Cac phuong thuc duoc thuc thi ngay khi chayj chuonng trinh
+
+    @* public void OnGet(){
+        System.Console.WriteLine("Run OnGet Method");
+        <h1>Run OnGet Method by handler xyz</h1>
+
+    }  
+    // Get, Url?handled=xyz 
+    // => thuc thi khi url chi handler la xyz
+    public void OnGetXyz(){
+        System.Console.WriteLine("Run OnGet Method by handler xyz");
+    } *@
+    @* Code da duoc viet o model *@
+}
+<H2>Tieu de trong model @Model.Title </H2>

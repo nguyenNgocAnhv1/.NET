@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CNTT\\Net\\DotNetWeb\\NetWebOnVSC\\b02_Middleware_Pipeline\\wwwroot\\new.html",
+      "PackagePath": "staticwebassets\\new.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Bai2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Bai2.props",
+      "PackagePath": "build\\Bai2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Bai2.props",
+      "PackagePath": "buildMultiTargeting\\Bai2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Bai2.props",
+      "PackagePath": "buildTransitive\\Bai2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

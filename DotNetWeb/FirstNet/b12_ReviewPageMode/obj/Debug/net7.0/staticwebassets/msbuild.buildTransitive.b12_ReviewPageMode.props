@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\b12_ReviewPageMode.props" />
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\b08_ASPBasic.props" />
+</Project>

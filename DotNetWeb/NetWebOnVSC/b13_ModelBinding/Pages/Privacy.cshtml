@@ -1,0 +1,59 @@
+﻿@page "/privacy/{id:int?}"
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<form class="bg-light p-2 m-2" method="post" asp-page="Privacy">
+    <div class="">
+        <label asp-for="@Model.up.UserId"></label>
+        <input asp-for="@Model.up.UserId">
+        <span asp-validation-for="@Model.up.UserId"></span>
+    </div>
+
+    <div class="">
+        <label asp-for="@Model.up.Email"></label>
+        <input asp-for="@Model.up.Email">
+        <span asp-validation-for="@Model.up.Email"></span>
+    </div>
+
+    <div class="">
+        <label asp-for="@Model.up.UserName"></label>
+        <input asp-for="@Model.up.UserName">
+        <span asp-validation-for="@Model.up.UserName"></span>
+    </div>
+    <br>
+    <button class="btn-danger btn" type="submit">Gửi</button>
+</form>
+<div class="alert alert-danger">
+    <p>Thông tin User</p>
+    @if(Model.up!=null)
+    {
+          <ul>
+            <li>UserId: @Model.up.UserId</li>
+            <li>Email: @Model.up.UserName </li>
+            <li>UserName: @Model.up.Email </li>
+        </ul>
+    }
+      @* @try
+      {
+          <ul>
+            <li>UserId: @Model.up.UserId</li>
+            <li>Email: @Model.up.UserName </li>
+            <li>UserName: @Model.up.Email </li>
+        </ul>
+      }
+      catch (System.Exception ex)
+      {
+        <ul>
+            <li>UserId: @ex.Message</li>
+        </ul>
+      }
+     *@
+</div>
+@section Scripts{
+<partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,4 @@
+﻿PageModel, Model Binding
+Create a page by cmd: dotnet new page -n ProductPage -o Pages  
+di service
+Router variables

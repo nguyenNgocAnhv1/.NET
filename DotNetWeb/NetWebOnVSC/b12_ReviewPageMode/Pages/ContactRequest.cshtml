@@ -1,0 +1,17 @@
+﻿@page
+@model Contact
+@{
+ViewData["Title"] = "Lien He";
+}
+<h1 class="display-4">Contact Request</h1>
+<p class="lead">Contact Info</p>
+@functions{
+public string user{set;get;} = "Ngoc Anh";
+public int tong (int a, int b){
+return a + b;
+}
+}
+@Model.Name
+@user
+<br>
+@tong(2,2)
